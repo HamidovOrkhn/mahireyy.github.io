@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+
+
+
+<html class="loading" lang="en" data-textdirection="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Modern admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities with bitcoin dashboard.">
+    <meta name="keywords" content="admin template, modern admin template, dashboard template, flat admin template, responsive admin template, web app, crypto dashboard, bitcoin dashboard">
+    <meta name="author" content="PIXINVENT">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>Azərişıq ASC</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+
+
+
+  </head>
+  <!-- END: Head-->
+  <div id="loadingfade" style="background-color: white; width: 100%; height: 100%;position: absolute; z-index:3;border-radius: 15px;opacity:0.5;display:none;">
+    <div class="d-flex justify-content-center" >
+        <div class="spinner-border text-info" style="margin-top: 20%;width: 8rem; height: 8rem;position: absolute;z-index:5; border-width:15px;opacity:1;" id="loadingf" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          
+    </div>
+  </div>
+  <!-- BEGIN: Body-->
+  <body class="horizontal-layout horizontal-menu 2-columns  " data-open="hover" data-menu="horizontal-menu" data-col="2-columns">
+    
+    
+     <style>
+      @media screen and (max-width: 768px) {
+      body {
+      display: none;
+  
+      }
+    }
+    @media screen and (max-width: 1000px) {
+      body {
+      display: none;
+  
+      }
+    }
+    </style>
+     <!-- <style>
+      #cardazerisiq{
+        transition: 0.1s;
+  
+      }
+      #cardazerisiq:hover{
+        transform:scale(1.03);
+        box-shadow:0 10px 40px rgba(0, 0, 0, 0.1);
+      }
+    </style>   -->
+    <!-- <style>
+      @media screen and (min-width: 600px) {
+      #cardazerisiq {
+       margin-bottom: 20px !important;
+  
+      }
+    }
+    </style> -->
+
+    <!-- END: Header-->
+
+
+    <!-- BEGIN: Main Menu-->
+
+
+    <!-- END: Main Menu-->
+    <!-- BEGIN: Content-->
+    <div class="container-fluid mt-3">
+
+      <div class="content-wrapper">
+       
+        <div class="content-body">
+
+
+            <style>
+              body{
+                padding-top: 100px;
+                margin: 0;
+              }
+                .format {
+                background-color: transparent;
+                font-size: 10px !important;
+                overflow: visible;
+            
+            }
+            
+            .container{
+                position: relative;
+                margin: 450px;
+                margin-top: 100px;
+                width: inherit;
+                height: inherit;
+                perspective: 1800px;
+            
+                
+            
+            }
+            .cube{
+                width: inherit;
+                height: inherit;
+                transform-style: preserve-3d;
+                position: absolute;
+                left: -400px;
+                margin-top: -80px;
+                animation-name: cardanimation;
+                animation-duration: 20s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                animation-delay: 0s;
+                overflow: visible;
+            
+            
+                
+            }
+            .side{
+                position: absolute;
+                border: 5px solid transparent;
+                text-align: center;
+               
+                color: white;
+                background-color: transparent;
+                backface-visibility: visible;
+            }
+            
+            
+            .front{
+                height: inherit;
+                width: inherit;
+                transform: rotate(0deg) translateZ(1px);
+                
+            }
+            .front>.card{
+                background-image: url("suprise.jpg");
+                background-size: cover;
+            }
+            
+            .back{
+                height: inherit;
+                width: inherit;
+                transform: rotate(-0deg) translateZ(-1px) translateY(-100px);
+                        
+            }
+            .logoback{
+                transform: rotateX(0deg);
+                transform: rotateY(180deg);
+                width: 280px;
+                position:absolute;
+                top: -90px;
+                left: -285px;
+                
+                
+                
+            }
+            .altyazilogo{
+                transform: rotateX(0deg);
+                transform: rotateY(-180deg);
+                letter-spacing: 7px;
+                width: inherit;
+                font-size: 13px;
+                float: left;
+                position: absolute;
+                left: -455px;
+                top: 40px;
+                margin: 2px;
+            }
+            .altyazi{
+                transform: rotateX(0deg);
+                transform: rotateY(-180deg);
+                width: 500px;
+                position: absolute;
+            text-align: left;
+                left: -400px;
+                top: 0px;
+            }
+            /* .left{
+                height: 350px;
+              width: 10px;
+              margin-top: 115px;
+                transform: rotateY(-90deg) translateZ(126px);
+            }
+            .right{
+                height: 350px;
+              width: 10px;
+              margin-top: 115px;
+                transform: rotateY(90deg) translateZ(465px);
+            }
+            .top{
+              width: 580px;
+              height: 10px;
+              margin-left: -115px;
+                transform: rotateX(90deg)  translateZ(-105px);
+            }
+            
+            .bottom{
+                width: 580px;
+              height: 10px;
+              margin-left: -115px;
+                
+                transform: rotateX(90deg) translateZ(-465px);
+            } */
+            .shadow{
+                width: 700px;
+                position: fixed;
+                height: 700px;
+                background-color: rgba(211, 211, 211, 0.605);
+               
+                border-radius: 50%;
+                border-color: transparent;
+                opacity: 0.8;
+                filter: blur(20px);
+                margin-left: 80px;
+                
+                /* box-shadow: 10px 10px 10px black ; */
+                transform: rotateX(90deg) translateZ(-50px);
+                opacity: 0.6;
+            }
+            .crd-content{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+             
+            }
+            .crd-content>.container{
+               margin: 0;
+               font-size: 15px !important;
+               width: 550px !important;
+               height: 350px !important;
+             
+            }
+            .crd-content>.container>div{
+                margin: 0px;
+                
+              
+             }
+             @keyframes cardanimation{
+            0%{
+              transform: rotateY(0deg)
+            }
+            10%{
+              transform:rotateY(36deg);
+            }
+            20%{
+              transform:rotateY(72deg);
+            }
+            30%{
+              transform:rotateY(108deg);
+            }
+            40%{
+              transform:rotateY(146deg);
+            }
+            50%{
+              transform:rotateY(182deg);
+            }
+            60%{
+              transform:rotateY(218deg);
+            }
+            70%{
+              transform:rotateY(254deg);
+            }
+            80%{
+              transform:rotateY(290deg);
+            }
+            90%{
+              transform:rotateY(326deg);
+              }
+              100%{
+                transform: rotateY(360deg);
+              }
+             
+             
+            }
+            
+             }
+              </style> 
+                <div class="row pt-4 crd  " style="height: 450px;overflow:visible;"  >
+                  
+                  <div class="format frs col-xl-12 col-lg-12 col-md-12">
+                    <div class="container" id="cnt">
+                      
+                       <div class="cube">
+                        
+                
+                          <div class="side front"><div  style="background-color:#FAFAFA; width: 580px; height: 350px;  margin:auto; border-radius: 15px; " id="cardazerisiq" class="card">
+        
+                        
+                           
+                           <div class="card-body crd-content">
+                              
+                           </div>
+                        </div></div>
+                          <div class="side back">
+                       <div  style="background-color:plum; width: 580px; height: 350px;  margin:auto; border-radius: 15px;" id="cardazerisiq" class="card">
+                            <div class="container">
+                           
+                               <div class="row text-dark altyazilogo " style="color: white;"> <b>DOĞUM GÜNÜNÜZ MÜBARƏK ƏZİZ MAHİRƏ BABAŞOVA !</b> 
+                            <br>
+                            <br>
+                            Bu ilin qazandırdığı ən dəyərli insanlardansınız. Müsbət keyfiyyətlərinizi saymağa başlasam daha böyük karta ehtiyacım olacağına əminəm.
+                            Sizə 20 yaşınızda həyata qarşı duruşuvuzun bu yaşa qədər olduğu kimi inamlı olmasını və karyeranızda böyük ilərləmələr qət etmənizi arzulayıram.
+                            20 yaşın mübarək !
+
+                            </div>
+
+                               
+                              
+                            </div>
+                            
+                            
+                        </div></div>
+                        
+                        <div class="shadow" style="display: none;"></div>
+                       </div>
+                       
+                       
+                        
+                     
+                    
+                    </div>
+                 </div>
+                
+                </div>
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+    <!-- END: Content-->
+
+
+    <!-- BEGIN: Customizer-->
+
+
+
+
+
+
+
+
+
+    <!-- BEGIN: Footer-->
+
+    <!-- END: Footer-->
+
+
+    <!-- BEGIN: Vendor JS-->
+    
+
+
+
+    <!-- END: Page JS-->
+
+  </body>
+  <!-- END: Body-->
+
+<!-- Mirrored from pixinvent.com/modern-admin-clean-bootstrap-4-dashboard-html-template/html/ltr/bank-menu-template/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Jul 2020 06:35:20 GMT -->
+</html>
